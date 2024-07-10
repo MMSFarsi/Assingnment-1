@@ -173,6 +173,18 @@
     align-items: center;
 
 }
+.ins-subtitle{
+   
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
 
 .video-container {
     padding: 20px;
@@ -210,6 +222,17 @@ iframe {
     width: 284px;
     padding: 30px;
     border-radius: 16px;
+}
+.skill-subtitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
 }
 
 .box1 {
