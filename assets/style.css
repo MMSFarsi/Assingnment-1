@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* universal */
+
 .text-center {
     text-align: center;
 
@@ -58,7 +59,7 @@
 
 .btn {
     padding: 15px 24px 15px 25px;
-    
+
     border: none;
     cursor: pointer;
     border-radius: 8px;
@@ -66,7 +67,8 @@
     background: rgb(13, 19, 33);
     ;
 }
-#hero a{
+
+#hero a {
     color: rgb(255, 255, 255);
     font-family: Work Sans;
     font-size: 20px;
@@ -84,16 +86,25 @@
 
 /* Development Part Started */
 #dev {
+
     margin: 74px 145px;
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 10px;
+    width: 1050px;
+    height: 1600px;
+    
 }
 
 .dev-container {
+    margin: 10px 20px;
 
     display: flex;
     justify-content: space-around;
     gap: -200px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
 .dev-title {
@@ -104,6 +115,8 @@
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+    padding-top: 40px;
+   
 }
 
 #dev .dev-des {
@@ -115,12 +128,16 @@
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 48px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .details {
     width: 400px;
 
 }
+
 
 .details-title {
     color: rgba(13, 19, 33, 0.7);
@@ -140,7 +157,7 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: justify;
     opacity: 0.7;
 }
 
@@ -148,6 +165,9 @@
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    padding: 10px;
+    background-color: white;
+    margin:30px 0px 30px 0px;
 
 }
 
@@ -173,21 +193,23 @@
     align-items: center;
 
 }
-.ins-subtitle{
-   
+
+.ins-subtitle {
+
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding-top: 24px;
 
 }
 
 .video-container {
-    padding: 20px;
+    padding: 18px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -214,7 +236,7 @@ iframe {
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-    margin-top: 20px;
+    margin-top: 48px;
 
 }
 
@@ -223,15 +245,18 @@ iframe {
     padding: 30px;
     border-radius: 16px;
 }
-.skill-subtitle{
+
+
+.skill-subtitle {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding-top: 24px;
 
 }
 
@@ -267,6 +292,8 @@ opacity: 0.7;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+    opacity: 0.7;
+
 
 }
 
@@ -279,6 +306,7 @@ opacity: 0.7;
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+    
 }
 
 /* Skill Section End */
@@ -287,7 +315,7 @@ opacity: 0.7;
 /* Support section */
 #support-section {
     margin: 74px auto;
-    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),  url("../assets/handshake.jpg");
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/handshake.jpg");
     width: 1050px;
     height: 300px;
     background-size: cover;
@@ -297,85 +325,90 @@ opacity: 0.7;
     align-items: center;
     border-radius: 16px;
 }
-.footer-container{
-    
-}
-.support-title{
+
+.footer-container {}
+
+.support-title {
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.support-subtitle{
+
+.support-subtitle {
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 
 }
-#support-section input{
+
+#support-section input {
     width: 548px;
-height: 57px;
+    height: 57px;
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-
-background: rgb(255, 255, 255);
-color: rgba(13, 19, 33, 0.4);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: center;
-}
-#support-section button{
-    width: 120px;
-height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
 
-background: rgb(255, 255, 255);
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
 }
+
+#support-section button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 /* Support Section end */
 
 
 /* Footer Section */
-#footer-section{
+#footer-section {
     display: flex;
     flex-direction: row;
-   
+    
+
 }
-.footer-container{
+
+.footer-container {
     margin: 0 auto;
     width: 1050px;
     height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
-#footer-section h4{
+
+#footer-section h4 {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-   
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
