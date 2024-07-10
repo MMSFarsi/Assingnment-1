@@ -13,7 +13,7 @@
     /* height: 652px; */
     width: 1366px;
     height: 652px;
-    background-image: url("/assets/hero-bg.png");
+    background-image: url("../assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -159,6 +159,7 @@
     border: none;
 }
 
+/* Inspiration Section */
 
 #ins {
     margin: 74px 145px;
@@ -182,18 +183,66 @@ height: 600px;
 iframe {
     border-radius: 10px;
 }
+/* Inspiration Section End */
 
+
+ /* Skill Section Started */
 #skill{
     margin: 74px 145px;
 }
 .skills-container{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
     margin-top: 20px;
+    
 }
 
 .skill{
     width: 284px;
+    padding: 30px;
+    border-radius: 16px;
 }
+.box1{
+    background-color: rgba(255, 76, 30, 0.05);
+    
+}
+.box2{
+    background-color:  rgba(0, 76, 232, 0.05);
+}
+.box3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.skills-container h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+    
+}
+.skills-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.skills-container a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+/* Skill Section End */
