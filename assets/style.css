@@ -330,6 +330,7 @@ text-align: center;
 
 /* Footer Section */
 #footer-section{
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
    
